@@ -20,13 +20,21 @@ The first thing we did was prepare and validate our hotel data. Based off the pl
 We then set up a 5 fold time series cross validation. 
 
 ## Step three: Train and compare all required models
-Th
+We ran the baseline models with no predictors. In this step we ran Naive, SeasonalNaive, AutoETS, and AutoARIMA.
+Following that we ran AutoARIMA with predictors. 
+
+Then we did the Machine Learning models. 
+
+Lastly we did the TimeCoPilot model
 
 ## Step four: Aggregate evaluation metrics and count model wins
-Th
+The image below shows the evaluation metrics with all of the models that we ran. 
+
+---INSERT TABLE OF MAPE MASE ETC AND ALL MODELS---
 
 ## Step five: Generate final test forecasts and export results to CSV
-Th
+
+ ---CREATE A GRAPH WITH THE MODEL WE LIKE THE MOST TO FORECAST---
 
 ## Step six: Create forecast-vs-actual plots for every series
 Th
