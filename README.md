@@ -1,12 +1,7 @@
 # 444 Final Project
 
 ## Project Overview
-This repository contains the final project for the 444 course, which focuses on [insert project focus, e.g., machine learning, data analysis, etc.]. The primary goal of this project is to [insert primary goal or research question].
-
-### Key Features:
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+In this  project we  compared traditional, machine learning, neural, and foundation-model. We approached a realistic business forecasting task and then explain which methods perform best and why. We forecasted room demand for the 17 hotel properties using the sample_hotels.parquet. We looked for Y daily room demand for the next 4 weeks.
 
 ## Folder Structure
 The repository is organized as follows:
