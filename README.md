@@ -13,53 +13,19 @@ The repository is organized as follows:
 ├── src/               # Source code for the project
 └── README.md          # Project overview and documentation
 ```
+#import data
+df = (
+    pd.read_parquet('sample_hotels-1.parquet'))
 
-## Workflow Steps
-1. **Data Collection:** Acquire the required datasets.
-2. **Data Cleaning:** Preprocess the data to ensure quality.
-3. **Exploratory Data Analysis:** Analyze the data to identify patterns.
-4. **Model Building:** Train different models to find the best fit.
-5. **Evaluation:** Assess model performance using various metrics.
-6. **Results:** Present findings through visualizations and conclusions.
+display(df)
 
-## Model Comparisons
-The following models have been evaluated in this project:
-- Model 1: [Description/Key characteristics]
-- Model 2: [Description/Key characteristics]
-- Model 3: [Description/Key characteristics]
-- [List additional models if applicable]
+df = df.rename(columns={
+    'hotel_id': 'unique_id',  
+    'date': 'ds',              
+    'bookings': 'y'})
 
-## Evaluation Metrics
-We use several metrics to evaluate our models:
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- [Add any other relevant metrics]
+plot_series(df, engine="matplotlib", max_ids=18)
 
-## Links to Notebooks and Outputs
-- [Data Analysis Notebook](notebooks/data_analysis.ipynb)
-- [Model Training Notebook](notebooks/model_training.ipynb)
-- [Outputs Folder](outputs/)
-
-## Instructions for Reproducibility
-To reproduce the results of this project:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ellianaping/444FinalProject.git
-   cd 444FinalProject
-   ```
-2. Install the required packages. You can use the following command:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the notebooks in the `notebooks/` directory to reproduce the results.
-
-## Acknowledgments
-- [Any acknowledgments, if applicable]  
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-For any questions, feel free to reach out to [your_contact_info].
+#get rid of hotel 28 and hotel 77 based on the plots
+df = df.query("unique_id not in ['hotel_28', 'hotel_77']")
+plot_series(df, engine="matplotlib", max_ids=18)
