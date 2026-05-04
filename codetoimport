@@ -1,0 +1,16 @@
+#import data
+df = (
+    pd.read_parquet('sample_hotels-1.parquet'))
+
+display(df)
+
+df = df.rename(columns={
+    'hotel_id': 'unique_id',  
+    'date': 'ds',              
+    'bookings': 'y'})
+
+plot_series(df, engine="matplotlib", max_ids=18)
+
+#get rid of hotel 28 and hotel 77 based on the plots
+df = df.query("unique_id not in ['hotel_28', 'hotel_77']")
+plot_series(df, engine="matplotlib", max_ids=18)
