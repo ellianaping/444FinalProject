@@ -32,21 +32,20 @@ Lastly we did the TimeCoPilot model
 
 ## Step four: Aggregate evaluation metrics and count model wins
 The CSV below shows the evaluation metrics with some of the models that we ran (Naive, SeasonalNaive, AutoETS, AutoARIMA with No Preds, and AutoARIMA with Preds) 
-([2026-05-06T17_53_40+00_00_6dva.csv](https://github.com/user-attachments/files/27451013/2026-05-06T17_53_40%2B00_00_6dva.csv) )
+([CSV with basline models](https://github.com/user-attachments/files/27451013/2026-05-06T17_53_40%2B00_00_6dva.csv) )
 
-([csv](https://github.com/user-attachments/files/27451013/2026-05-06T17_53_40%2B00_00_6dva.csv) )
 
 
 
 This CSV shows the evaluation metrics with the machine learning models that we ran (Lasso,KNN,Random Forest,LightGBM)
-([2026-05-06T17_30_18+00_00_in9m.csv](https://github.com/user-attachments/files/27450394/2026-05-06T17_30_18%2B00_00_in9m.csv))
+([CSV with Machine learning models](https://github.com/user-attachments/files/27450394/2026-05-06T17_30_18%2B00_00_in9m.csv))
 
 
 
 This CSV shows the evaluation metrics with the NeuralForecast models
 
 This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moirai,TimesFM,TabPFN)
-([tf_eval.csv](https://github.com/user-attachments/files/27451628/tf_eval.csv))
+([CSV with TimeCiplot AND TabPFN ](https://github.com/user-attachments/files/27451628/tf_eval.csv))
 
 
 
