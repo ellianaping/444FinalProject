@@ -1,4 +1,4 @@
-[2026-05-06T17_53_40+00_00_6dva.csv](https://github.com/user-attachments/files/27450996/2026-05-06T17_53_40%2B00_00_6dva.csv)[2026-05-06T17_53_40+00_00_6dva.csv](https://github.com/user-attachments/files/27450984/2026-05-06T17_53_40%2B00_00_6dva.csv)[2026-05-06T17_30_18+00_00_in9m.csv](https://github.com/user-attachments/files/27450372/2026-05-06T17_30_18%2B00_00_in9m.csv)# 444 Final Project
+# 444 Final Project
 
 ## Project Overview
 In this  project we  compared traditional, machine learning, neural, and foundation-model. We approached a realistic business forecasting task and then explain which methods perform best and why. We forecasted room demand for the 17 hotel properties using the sample_hotels.parquet. We looked for Y daily room demand for the next 4 weeks. 
@@ -32,19 +32,21 @@ Lastly we did the TimeCoPilot model
 
 ## Step four: Aggregate evaluation metrics and count model wins
 The CSV below shows the evaluation metrics with some of the models that we ran (Naive, SeasonalNaive, AutoETS, AutoARIMA with No Preds, and AutoARIMA with Preds) 
-[CSV File]([2026-05-06T17_53_40+00_00_6dva.csv](https://github.com/user-attachments/files/27451013/2026-05-06T17_53_40%2B00_00_6dva.csv) )
+([2026-05-06T17_53_40+00_00_6dva.csv](https://github.com/user-attachments/files/27451013/2026-05-06T17_53_40%2B00_00_6dva.csv) )
+
+([csv](https://github.com/user-attachments/files/27451013/2026-05-06T17_53_40%2B00_00_6dva.csv) )
 
 
 
 This CSV shows the evaluation metrics with the machine learning models that we ran (Lasso,KNN,Random Forest,LightGBM)
-[CSV File]([2026-05-06T17_30_18+00_00_in9m.csv](https://github.com/user-attachments/files/27450394/2026-05-06T17_30_18%2B00_00_in9m.csv))
+([2026-05-06T17_30_18+00_00_in9m.csv](https://github.com/user-attachments/files/27450394/2026-05-06T17_30_18%2B00_00_in9m.csv))
 
 
 
 This CSV shows the evaluation metrics with the NeuralForecast models
 
 This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moirai,TimesFM,TabPFN)
-[CSV File]([tf_eval.csv](https://github.com/user-attachments/files/27451628/tf_eval.csv))
+([tf_eval.csv](https://github.com/user-attachments/files/27451628/tf_eval.csv))
 
 
 
