@@ -6,7 +6,7 @@ In this  project we  compared traditional, machine learning, neural, and foundat
 We did all of our work on the following DeepNote File: 
 [DeepNote File](https://deepnote.com/workspace/ISA444-b9f43125-8122-4dd6-9928-9afea823b37b/project/Final-Project-44bf3ddd-e5de-4d20-8ce8-c4038e2ca0ff/notebook/Final-Project-2533c10aab9c43f0b3e9cc2f5fcca158?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=44bf3ddd-e5de-4d20-8ce8-c4038e2ca0ff)
 
-and the TABpfn on this deepnote: 
+and the TimeCopilot and TABpfn on this deepnote: 
 [TEBpfn](https://deepnote.com/workspace/ISA444-b9f43125-8122-4dd6-9928-9afea823b37b/project/Final-Project-44bf3ddd-e5de-4d20-8ce8-c4038e2ca0ff/notebook/TimeCopilot-70af92c57aa74a5ea8786ec36e1664a0?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=44bf3ddd-e5de-4d20-8ce8-c4038e2ca0ff )
 
 ## Step One: prepare and validate data
@@ -43,9 +43,8 @@ This CSV shows the evaluation metrics with the machine learning models that we r
 
 This CSV shows the evaluation metrics with the NeuralForecast models
 
-This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moirai,TimesFM)
+This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moirai,TimesFM,TabPFN)
 
-This CSV shows the evaluation metrics for the TabPFN forecast
 
 
 ## Step five: Generate final test forecasts and export results to CSV
