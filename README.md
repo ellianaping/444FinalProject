@@ -47,6 +47,9 @@ This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moi
 Then we counted how many times each model won. the charts below show these counts: 
 <img width="212" height="139" alt="Screenshot 2026-05-07 at 1 10 29 PM" src="https://github.com/user-attachments/assets/f4977ad7-dc62-4842-ac06-9c0d66176380" />
 
+<img width="308" height="157" alt="Screenshot 2026-05-07 at 1 40 16 PM" src="https://github.com/user-attachments/assets/e138f3b1-47f4-421e-8dc2-e1b64f8fd6e7" />
+
+
 
 
 ## Step five: Generate final test forecasts and export results to CSV
