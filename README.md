@@ -42,6 +42,9 @@ This CSV shows the evaluation metrics with the NeuralForecast models
 This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moirai,TimesFM,TabPFN)
 ([CSV with TimeCiplot AND TabPFN ](https://github.com/user-attachments/files/27451628/tf_eval.csv))
 
+Then we counted how many times each model won. the charts below show these counts: 
+<img width="212" height="139" alt="Screenshot 2026-05-07 at 1 10 29 PM" src="https://github.com/user-attachments/assets/f4977ad7-dc62-4842-ac06-9c0d66176380" />
+
 
 
 ## Step five: Generate final test forecasts and export results to CSV
