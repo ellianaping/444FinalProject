@@ -1,4 +1,4 @@
-# 444 Final Project
+[neuralforecast_metrics_data.csv](https://github.com/user-attachments/files/27490712/neuralforecast_metrics_data.csv)# 444 Final Project
 
 ## Project Overview
 In this  project we  compared traditional, machine learning, neural, and foundation-model. We approached a realistic business forecasting task and then explain which methods perform best and why. We forecasted room demand for the 17 hotel properties using the sample_hotels.parquet. We looked for Y daily room demand for the next 4 weeks. 
@@ -38,6 +38,8 @@ This CSV shows the evaluation metrics with the machine learning models that we r
 ([CSV with Machine learning models](https://github.com/user-attachments/files/27450394/2026-05-06T17_30_18%2B00_00_in9m.csv))
 
 This CSV shows the evaluation metrics with the NeuralForecast models
+[neuralforecast_metrics_data.csv…]()
+
 
 This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moirai,TimesFM,TabPFN)
 ([CSV with TimeCiplot AND TabPFN ](https://github.com/user-attachments/files/27451628/tf_eval.csv))
