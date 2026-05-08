@@ -50,7 +50,7 @@ We then counted how often each model wins, where a win means the model achieves 
 
 Baseline model: <img width="308" height="157" alt="Screenshot 2026-05-07 at 1 40 16 PM" src="https://github.com/user-attachments/assets/e138f3b1-47f4-421e-8dc2-e1b64f8fd6e7" />
 
-Neural: <img width="244" height="102" alt="Screenshot 2026-05-08 at 11 42 13 AM" src="https://github.com/user-attachments/assets/47a7f928-7ee4-4707-84c6-da2bd9730859" />
+Neural: <img width="193" height="102" alt="unnamed" src="https://github.com/user-attachments/assets/6b5a0c41-d7cc-4444-bd6e-feaa6e8fce01" />
 
 TimeCoPilot: <img width="306" height="138" alt="Screenshot 2026-05-08 at 11 44 40 AM" src="https://github.com/user-attachments/assets/fef98910-b476-492b-b0f0-fbe6461f615a" />
 
