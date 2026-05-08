@@ -90,3 +90,12 @@ TimeCopilot Plots:
 ## Step seven: Conclusion
 Not excalty sure what to put for the conclusion, but I think Neuralforecast plots look the best (Kaitlyn)
 
+In this project we did an entire predicive analyisis. We started with preparing the data and then used evaluation metrics to evalute differnt types of models. After identifying the best models from each type we graphed the forecasts.
+
+Throughout the evaluation phase we discovered that AutoARIMA was the best preformer for capturing the seasonality and trends in hotel data and it out preformed other baseline models. We also discovered that incorporating OTB data and other seasonal predictors helped with the acuracy. 
+
+Looking at the plots we created with the forecasts we decided that the 
+
+
+Ultimately, this project provides a scalable framework for hotel revenue managers to anticipate demand fluctuations. By automating the selection of the best-performing model for each unique hotel ID, we ensure that forecasting remains precise, adaptive, and actionable for data-driven decision-making in the hospitality industry.
+
