@@ -67,11 +67,7 @@ Out of the TimeCopilot models, the TimesFM-2.5 model outpreformed the others. Ti
 
 Lastly the LightGBM model was the best model of the machine learning ones. LightGBM had the best metrics compared to the other models since LightGBM won in 39 cases, while the next winner was KNN, which only won in 17 cases. LightGBM performed well on this data since it is good at capturing non-linear demand patterns that can happen with pricing changes, holidays, and events. 
 
-## Step five: Generate final test forecasts and export results to CSV
-
-
-
-## Step six: Create forecast-vs-actual plots for every series
+## Step five: Create forecast-vs-actual plots for every series
 Based on the results from the model counts, we took the model that perfomed the best and created plots to forecast the results and compare them with each other. 
 
 Neuralforecast plots:
@@ -87,7 +83,7 @@ TimeCopilot Plots:
 <img width="1776" height="1411" alt="TimeCopilot_forecast" src="https://github.com/user-attachments/assets/5560071a-3eb1-4139-ae6d-7444464ca233" />
 
 
-## Step seven: Conclusion
+## Step six: Conclusion
 In this project, we conducted an end-to-end predictive analysis. We started by preparing the inital data and then used key evaluation metrics to test several different types of models against each other. After identifying the top-performing models from each category, we generated and graphed the final 28-day forecasts.
 
 Throughout the evaluation phase, we discovered that AutoARIMA was the strongest performer for capturing the specific seasonality and trends found in hotel data, consistently outperforming our baseline models. We also found that the model’s accuracy improved significantly by incorporating "On The Books" (OTB) data and other seasonal predictors like holidays and target dates.
