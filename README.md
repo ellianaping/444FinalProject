@@ -61,7 +61,7 @@ Looking at the baseline models without predictors the AutoARMIA won. This model 
 
 TALK ABOUT AUTOARMIMA W PREDS
 
-TALK ABOUT NEURAL 
+Out of the two neural models, AutoNBEATS preformed best. 
 
 Out of the TimeCopilot models, the TimesFM-2.5 model outpreformed the others. 
 
