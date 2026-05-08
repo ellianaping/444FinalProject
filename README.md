@@ -40,7 +40,8 @@ This CSV shows the evaluation metrics with the machine learning models that we r
 ([CSV with Machine learning models](https://github.com/user-attachments/files/27450394/2026-05-06T17_30_18%2B00_00_in9m.csv))
 
 This CSV shows the evaluation metrics with the NeuralForecast models
-[CSV with neuralforecast](https://github.com/user-attachments/files/27490712/neuralforecast_metrics_data.csv)
+[CSV with Neural Forecast](https://github.com/user-attachments/files/27531648/neuralforecasts_metrics.csv)
+)
 
 
 This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moirai,TimesFM,TabPFN)
