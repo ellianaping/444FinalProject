@@ -77,6 +77,10 @@ Take the best model and apply it to each hotel!
 Neuralforecast plots:
 <img width="1834" height="3161" alt="forecast image" src="https://github.com/user-attachments/assets/d98562d2-9463-4f50-bcbe-5695957e573f" />
 
+AutoARIMA plots: 
+<img width="1765" height="3161" alt="AutoARIMA_forecasts" src="https://github.com/user-attachments/assets/d068eba8-7646-4a7b-b46f-a3b058a0ebda" />
+
+
 ## Step seven: Conclusion
 
 
