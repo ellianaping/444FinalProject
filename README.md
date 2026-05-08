@@ -69,7 +69,8 @@ Lastly the LightGBM model was the best model of the machine learning ones.
 
 ## Step five: Generate final test forecasts and export results to CSV
 
- ---CREATE A GRAPH WITH THE MODEL WE LIKE THE MOST TO FORECAST---
+<img width="1834" height="3161" alt="forecast image" src="https://github.com/user-attachments/assets/d98562d2-9463-4f50-bcbe-5695957e573f" />
+
 
 ## Step six: Create forecast-vs-actual plots for every series
 Take the best model and apply it to each hotel! 
