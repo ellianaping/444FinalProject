@@ -49,6 +49,7 @@ Then we counted how many times each model won. the charts below show these count
 
 <img width="308" height="157" alt="Screenshot 2026-05-07 at 1 40 16 PM" src="https://github.com/user-attachments/assets/e138f3b1-47f4-421e-8dc2-e1b64f8fd6e7" />
 
+<img width="244" height="102" alt="Screenshot 2026-05-08 at 11 42 13 AM" src="https://github.com/user-attachments/assets/47a7f928-7ee4-4707-84c6-da2bd9730859" />
 
 
 
