@@ -31,9 +31,7 @@ We then set up a 5 fold time series cross validation. For each cross-validation,
 We ran the baseline models with no predictors. In this step we ran Naive, SeasonalNaive, AutoETS, and AutoARIMA.
 Following that we ran AutoARIMA with predictors. 
 
-Then we did the Machine Learning models.   
-
-Lastly we did the TimeCoPilot models.
+Then we did the Machine Learning models, Neural, and  TimeCoPilot models. 
 
 ## Step four: Aggregate evaluation metrics and count model wins
 The CSV below shows the evaluation metrics with some of the models that we ran (Naive, SeasonalNaive, AutoETS, AutoARIMA with No Preds, and AutoARIMA with Preds) 
