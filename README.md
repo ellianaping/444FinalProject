@@ -56,6 +56,14 @@ TimeCoPilot: <img width="306" height="138" alt="Screenshot 2026-05-08 at 11 44 4
 
 Machine Learning: <img width="312" height="136" alt="Screenshot 2026-05-08 at 11 53 42 AM" src="https://github.com/user-attachments/assets/8acca331-11d2-46e3-a6ff-3d4a61c1671a" />
 
+Looking at the baseline models without predictors the AutoARMIA won. This model has the most lowest evaluation metrics. 
+
+TALK ABOUT AUTOARMIMA W PREDS
+TALK ABOUT NEURAL 
+
+Out of the TimeCopilot models, the TimesFM-2.5 model outpreformed the others. 
+
+Lastly the LightGBM model was the best model of the machine learning ones. 
 
 ## Step five: Generate final test forecasts and export results to CSV
 
