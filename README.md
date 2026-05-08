@@ -5,11 +5,14 @@
 ## Project Overview
 In this  project we  compared traditional, machine learning, neural, and foundation-model. We approached a realistic business forecasting task and then explain which methods perform best and why. We forecasted room demand for the 17 hotel properties using the sample_hotels.parquet. We looked for Y daily room demand for the next 4 weeks. 
 
-We did all of our work on the following DeepNote File: 
+We did the baseline models, model with predictions, and machine learning the following DeepNote File: 
 [DeepNote File](https://deepnote.com/workspace/ISA444-b9f43125-8122-4dd6-9928-9afea823b37b/project/Final-Project-44bf3ddd-e5de-4d20-8ce8-c4038e2ca0ff/notebook/Final-Project-2533c10aab9c43f0b3e9cc2f5fcca158?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=44bf3ddd-e5de-4d20-8ce8-c4038e2ca0ff)
 
-and the TimeCopilot and TABpfn on this deepnote: 
+TimeCopilot and TABpfn on this deepnote: 
 [TEBpfn](https://deepnote.com/workspace/ISA444-b9f43125-8122-4dd6-9928-9afea823b37b/project/Final-Project-44bf3ddd-e5de-4d20-8ce8-c4038e2ca0ff/notebook/TimeCopilot-70af92c57aa74a5ea8786ec36e1664a0?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=44bf3ddd-e5de-4d20-8ce8-c4038e2ca0ff )  
+
+And Neural Forecast in this colab: 
+[Neural](https://colab.research.google.com/drive/15X2HTfM5jgDDFHwBj_d0MgWARMrCmFtG#scrollTo=r1LfmzipVH1a)
 
 ## Step One: prepare and validate data
 The first thing we did was prepare and validate our hotel data. Based off the plots we produced, we removed hotel 28 and 77. The following images show the data we kept. 
@@ -22,15 +25,15 @@ The first thing we did was prepare and validate our hotel data. Based off the pl
 
 
 ## Step Two: Set up a 5-fold time-series cross-validation
-We then set up a 5 fold time series cross validation. 
+We then set up a 5 fold time series cross validation. For each cross-validation, we had horizon=28, step-size=28, and number of windows = 5
 
 ## Step three: Train and compare all required models
 We ran the baseline models with no predictors. In this step we ran Naive, SeasonalNaive, AutoETS, and AutoARIMA.
 Following that we ran AutoARIMA with predictors. 
 
-Then we did the Machine Learning models.  
+Then we did the Machine Learning models.   
 
-Lastly we did the TimeCoPilot model
+Lastly we did the TimeCoPilot models.
 
 ## Step four: Aggregate evaluation metrics and count model wins
 The CSV below shows the evaluation metrics with some of the models that we ran (Naive, SeasonalNaive, AutoETS, AutoARIMA with No Preds, and AutoARIMA with Preds) 
@@ -42,7 +45,6 @@ This CSV shows the evaluation metrics with the machine learning models that we r
 This CSV shows the evaluation metrics with the NeuralForecast models
 [CSV with Neural Forecast](https://github.com/user-attachments/files/27531648/neuralforecasts_metrics.csv)
 )
-
 
 This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moirai,TimesFM,TabPFN)
 ([CSV with TimeCiplot AND TabPFN ](https://github.com/user-attachments/files/27451628/tf_eval.csv))
@@ -57,22 +59,20 @@ TimeCoPilot: <img width="306" height="138" alt="Screenshot 2026-05-08 at 11 44 4
 
 Machine Learning: <img width="312" height="136" alt="Screenshot 2026-05-08 at 11 53 42 AM" src="https://github.com/user-attachments/assets/8acca331-11d2-46e3-a6ff-3d4a61c1671a" />
 
-Looking at the baseline models without predictors the AutoARMIA won. This model has the most lowest evaluation metrics. 
+Looking at the baseline models without predictors the AutoARMIA won. This model has the most lowest evaluation metrics in the most cases, which means that AutoARIMA will perform the best when forecasting the hotel occupancy. Since AutoARIMA with predictions was conducted using a different cross evaluation, we were not able to compare the counts of AutoARIMAwPred with the rest of the models without predictions, but in the evaluation forecast in the sf_eval.csv, it is shown that using AutoARIMAwPredictions provides slightly better results because it has lower metric results using that model. AutoARIMA would work the best for hotel occupancy since this model work well with repeating patterns, stable seasonal structure, predictable cyclic demand, which would be found in hotel forecasts. 
 
-TALK ABOUT AUTOARMIMA W PREDS
+Out of the two neural models, AutoNBEATS preformed best. AutoNBEATS performed significantly better since it was the best model in 37 cases, while AutoNHITS only performed better in 15 cases. 
 
-Out of the two neural models, AutoNBEATS preformed best. 
+Out of the TimeCopilot models, the TimesFM-2.5 model outpreformed the others. TimesFM would work best on this data since it is built as a general-purpose forecasting foundation model. 
 
-Out of the TimeCopilot models, the TimesFM-2.5 model outpreformed the others. 
-
-Lastly the LightGBM model was the best model of the machine learning ones. 
+Lastly the LightGBM model was the best model of the machine learning ones. LightGBM had the best metrics compared to the other models since LightGBM won in 39 cases, while the next winner was KNN, which only won in 17 cases. LightGBM performed well on this data since it is good at capturing non-linear demand patterns that can happen with pricing changes, holidays, and events. 
 
 ## Step five: Generate final test forecasts and export results to CSV
 
 
 
 ## Step six: Create forecast-vs-actual plots for every series
-Take the best model and apply it to each hotel! 
+Based on the results from the model counts, we took the model that perfomed the best and created plots to forecast the results and compare them with each other. 
 
 Neuralforecast plots:
 <img width="1834" height="3161" alt="forecast image" src="https://github.com/user-attachments/assets/d98562d2-9463-4f50-bcbe-5695957e573f" />
@@ -80,7 +80,13 @@ Neuralforecast plots:
 AutoARIMA plots: 
 <img width="1765" height="3161" alt="AutoARIMA_forecasts" src="https://github.com/user-attachments/assets/d068eba8-7646-4a7b-b46f-a3b058a0ebda" />
 
+Machine Learning plots:  
+<img width="1755" height="3161" alt="ML_graphs" src="https://github.com/user-attachments/assets/2d86c59e-f12e-4ed8-8816-79fb8ab29ea7" />
+
+TimeCopilot Plots: 
+<img width="1776" height="1411" alt="TimeCopilot_forecast" src="https://github.com/user-attachments/assets/5560071a-3eb1-4139-ae6d-7444464ca233" />
+
 
 ## Step seven: Conclusion
-
+Not excalty sure what to put for the conclusion, but I think Neuralforecast plots look the best (Kaitlyn)
 
