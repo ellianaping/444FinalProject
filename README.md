@@ -52,7 +52,7 @@ Baseline model: <img width="308" height="157" alt="Screenshot 2026-05-07 at 1 40
 
 Neural: <img width="244" height="102" alt="Screenshot 2026-05-08 at 11 42 13 AM" src="https://github.com/user-attachments/assets/47a7f928-7ee4-4707-84c6-da2bd9730859" />
 
-Machine Leaarning: <img width="306" height="138" alt="Screenshot 2026-05-08 at 11 44 40 AM" src="https://github.com/user-attachments/assets/fef98910-b476-492b-b0f0-fbe6461f615a" />
+TimeCoPilot: <img width="306" height="138" alt="Screenshot 2026-05-08 at 11 44 40 AM" src="https://github.com/user-attachments/assets/fef98910-b476-492b-b0f0-fbe6461f615a" />
 
 ## Step five: Generate final test forecasts and export results to CSV
 
