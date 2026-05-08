@@ -14,11 +14,11 @@ and the TimeCopilot and TABpfn on this deepnote:
 ## Step One: prepare and validate data
 The first thing we did was prepare and validate our hotel data. Based off the plots we produced, we removed hotel 28 and 77. The following images show the data we kept. 
 
-Baseline model: <img width="924" height="582" alt="Screenshot 2026-05-04 at 2 11 18 PM" src="https://github.com/user-attachments/assets/cb9aa4bc-34a5-4a0e-be32-47048de1a31e" />
+<img width="924" height="582" alt="Screenshot 2026-05-04 at 2 11 18 PM" src="https://github.com/user-attachments/assets/cb9aa4bc-34a5-4a0e-be32-47048de1a31e" />
 
-Neural: <img width="947" height="566" alt="Screenshot 2026-05-04 at 2 11 49 PM" src="https://github.com/user-attachments/assets/5344d2f3-b2e2-4bb0-b3af-86cbdfdd2c64" />
+ <img width="947" height="566" alt="Screenshot 2026-05-04 at 2 11 49 PM" src="https://github.com/user-attachments/assets/5344d2f3-b2e2-4bb0-b3af-86cbdfdd2c64" />
 
-Machine Leaarning: <img width="931" height="574" alt="Screenshot 2026-05-04 at 2 12 10 PM" src="https://github.com/user-attachments/assets/049a4275-65c1-48e8-83e3-a5b6408be811" />
+ <img width="931" height="574" alt="Screenshot 2026-05-04 at 2 12 10 PM" src="https://github.com/user-attachments/assets/049a4275-65c1-48e8-83e3-a5b6408be811" />
 
 
 ## Step Two: Set up a 5-fold time-series cross-validation
@@ -48,11 +48,11 @@ This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moi
 
 Then we counted how many times each model won. the charts below show these counts: 
 
-<img width="308" height="157" alt="Screenshot 2026-05-07 at 1 40 16 PM" src="https://github.com/user-attachments/assets/e138f3b1-47f4-421e-8dc2-e1b64f8fd6e7" />
+Baseline model: <img width="308" height="157" alt="Screenshot 2026-05-07 at 1 40 16 PM" src="https://github.com/user-attachments/assets/e138f3b1-47f4-421e-8dc2-e1b64f8fd6e7" />
 
-<img width="244" height="102" alt="Screenshot 2026-05-08 at 11 42 13 AM" src="https://github.com/user-attachments/assets/47a7f928-7ee4-4707-84c6-da2bd9730859" />
+Neural: <img width="244" height="102" alt="Screenshot 2026-05-08 at 11 42 13 AM" src="https://github.com/user-attachments/assets/47a7f928-7ee4-4707-84c6-da2bd9730859" />
 
-<img width="306" height="138" alt="Screenshot 2026-05-08 at 11 44 40 AM" src="https://github.com/user-attachments/assets/fef98910-b476-492b-b0f0-fbe6461f615a" />
+Machine Leaarning: <img width="306" height="138" alt="Screenshot 2026-05-08 at 11 44 40 AM" src="https://github.com/user-attachments/assets/fef98910-b476-492b-b0f0-fbe6461f615a" />
 
 ## Step five: Generate final test forecasts and export results to CSV
 
