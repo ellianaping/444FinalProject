@@ -46,7 +46,7 @@ This CSV shows the evaluation metrics with the NeuralForecast models
 This CSV shows the evaluation metrics with the TimeCopilotForecasts (Chronos,Moirai,TimesFM,TabPFN)
 ([CSV with TimeCiplot AND TabPFN ](https://github.com/user-attachments/files/27451628/tf_eval.csv))
 
-Then we counted how many times each model won. the charts below show these counts: 
+We then counted how often each model wins, where a win means the model achieves the lowest value for a specific metric on a given series (for example, lowest MAE). The following charts show those results: 
 
 Baseline model: <img width="308" height="157" alt="Screenshot 2026-05-07 at 1 40 16 PM" src="https://github.com/user-attachments/assets/e138f3b1-47f4-421e-8dc2-e1b64f8fd6e7" />
 
@@ -59,6 +59,7 @@ Machine Learning: <img width="312" height="136" alt="Screenshot 2026-05-08 at 11
 Looking at the baseline models without predictors the AutoARMIA won. This model has the most lowest evaluation metrics. 
 
 TALK ABOUT AUTOARMIMA W PREDS
+
 TALK ABOUT NEURAL 
 
 Out of the TimeCopilot models, the TimesFM-2.5 model outpreformed the others. 
